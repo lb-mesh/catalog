@@ -1,0 +1,124 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "name": "keycloak",
+      "category": "auth",
+      "description": "Keycloak identity provider in dev mode, set up for live theme development.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/auth/keycloak/recipe.v1.yaml"
+    },
+    {
+      "name": "openldap",
+      "category": "auth",
+      "description": "OpenLDAP directory server with a starter users and groups tree.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/auth/openldap/recipe.v1.yaml"
+    },
+    {
+      "name": "redis",
+      "category": "cache",
+      "description": "In-memory Redis data store and cache.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/cache/redis/recipe.v1.yaml"
+    },
+    {
+      "name": "cassandra",
+      "category": "database",
+      "description": "Apache Cassandra wide-column database (single node).",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/cassandra/recipe.v1.yaml"
+    },
+    {
+      "name": "couchdb",
+      "category": "database",
+      "description": "Apache CouchDB document database (Cloudant-compatible API).",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/couchdb/recipe.v1.yaml"
+    },
+    {
+      "name": "elasticsearch",
+      "category": "database",
+      "description": "Elasticsearch search and analytics engine (single node, security disabled).",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/elasticsearch/recipe.v1.yaml"
+    },
+    {
+      "name": "mongodb",
+      "category": "database",
+      "description": "MongoDB document database with root authentication enabled.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/mongodb/recipe.v1.yaml"
+    },
+    {
+      "name": "mssql",
+      "category": "database",
+      "description": "Microsoft SQL Server (Developer edition).",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/mssql/recipe.v1.yaml"
+    },
+    {
+      "name": "mysql",
+      "category": "database",
+      "description": "Relational MySQL database service.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/mysql/recipe.v1.yaml"
+    },
+    {
+      "name": "postgresql",
+      "category": "database",
+      "description": "Relational PostgreSQL database service.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/database/postgresql/recipe.v1.yaml"
+    },
+    {
+      "name": "datapower",
+      "category": "gateway",
+      "description": "IBM DataPower Gateway (developer-limited edition) with WebGUI, REST and XML management enabled.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/gateway/datapower/recipe.v1.yaml"
+    },
+    {
+      "name": "ibm-mq",
+      "category": "messaging",
+      "description": "IBM MQ queue manager (developer configuration) with the web console.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/messaging/ibm-mq/recipe.v1.yaml"
+    },
+    {
+      "name": "kafka",
+      "category": "messaging",
+      "description": "Apache Kafka event streaming broker (single node, KRaft mode).",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/messaging/kafka/recipe.v1.yaml"
+    },
+    {
+      "name": "mqtt",
+      "category": "messaging",
+      "description": "Eclipse Mosquitto MQTT broker (anonymous access, for local development).",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/messaging/mqtt/recipe.v1.yaml"
+    },
+    {
+      "name": "rabbitmq",
+      "category": "messaging",
+      "description": "RabbitMQ message broker with the management web UI.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/messaging/rabbitmq/recipe.v1.yaml"
+    },
+    {
+      "name": "splunk",
+      "category": "observability",
+      "description": "Splunk Enterprise (free trial license) with HTTP Event Collector.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/observability/splunk/recipe.v1.yaml"
+    },
+    {
+      "name": "nginx",
+      "category": "webserver",
+      "description": "Nginx HTTP server and reverse proxy.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/webserver/nginx/recipe.v1.yaml"
+    }
+  ]
+}

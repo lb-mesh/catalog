@@ -1,0 +1,4 @@
+apiVersion: v1
+name: kafka
+category: messaging
+version: 1

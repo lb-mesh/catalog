@@ -1,0 +1,4 @@
+apiVersion: v1
+name: redis
+category: cache
+version: 1

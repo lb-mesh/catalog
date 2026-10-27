@@ -1,0 +1,4 @@
+apiVersion: v1
+name: openldap
+category: auth
+version: 1

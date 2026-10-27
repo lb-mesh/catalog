@@ -1,0 +1,4 @@
+apiVersion: v1
+name: splunk
+category: observability
+version: 1

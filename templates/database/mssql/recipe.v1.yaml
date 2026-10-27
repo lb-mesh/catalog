@@ -1,0 +1,4 @@
+apiVersion: v1
+name: mssql
+category: database
+version: 1

@@ -1,0 +1,4 @@
+apiVersion: v1
+name: mqtt
+category: messaging
+version: 1

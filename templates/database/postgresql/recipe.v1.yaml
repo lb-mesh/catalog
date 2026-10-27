@@ -1,0 +1,4 @@
+apiVersion: v1
+name: postgresql
+category: database
+version: 1
