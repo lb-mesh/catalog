@@ -1,0 +1,28 @@
+apiVersion: catalog/v1
+kind: Recipe
+metadata:
+  name: portkey
+  category: gateway
+  description: Portkey AI gateway (LLM routing) with persisted logs and config.
+spec:
+  services:
+    web:
+      image: portkeyai/gateway:latest
+      restart: unless-stopped
+      containerName: portkey
+      ports:
+      - host: 8787
+        container: 8787
+      volumes:
+      - type: bind
+        source: ./data/logs
+        target: /app/logs
+      - type: bind
+        source: ./data/config
+        target: /app/config
+      resources:
+        limits:
+          memory: 512M
+          cpus: 1.0
+        reservations:
+          memory: 128M

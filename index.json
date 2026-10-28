@@ -79,6 +79,13 @@
       "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/gateway/datapower/recipe.v1.yaml"
     },
     {
+      "name": "portkey",
+      "category": "gateway",
+      "description": "Portkey AI gateway (LLM routing) with persisted logs and config.",
+      "version": "1.0.0",
+      "recipe_url": "https://raw.githubusercontent.com/lb-mesh/catalog/main/templates/gateway/portkey/recipe.v1.yaml"
+    },
+    {
       "name": "ibm-mq",
       "category": "messaging",
       "description": "IBM MQ queue manager (developer configuration) with the web console.",
