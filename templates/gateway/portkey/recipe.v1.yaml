@@ -4,7 +4,7 @@ metadata:
   category: gateway
   description: Portkey AI gateway (LLM routing) with persisted logs and config.
   scope: system
-  version: 1.0.0
+  version: "1.0.0"
 resources:
   min_memory_mb: 128
   recommended_memory_mb: 512
@@ -12,12 +12,12 @@ resources:
 container:
   image: portkeyai/gateway:latest
   ports:
-  - container: 8787
-    host: 8787
-    protocol: tcp
+    - container: 8787
+      host: 8787
+      protocol: tcp
   volumes:
-  - /app/logs
-  - /app/config
+    - /app/logs
+    - /app/config
 outputs:
   env:
     PORTKEY_GATEWAY_URL: http://localhost:8787
